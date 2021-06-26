@@ -208,7 +208,7 @@ public final class OkHttpUtils {
      * 异步请求，带有接口回调
      *
      */
-    public void async(ICallBack callBack) {
+    public void async(CallBack callBack) {
         setHeader(request);
         okHttpClient.newCall(request.build()).enqueue(new Callback() {
             @Override
@@ -279,7 +279,7 @@ public final class OkHttpUtils {
     /**
      * 自定义一个接口回调
      */
-    public interface ICallBack {
+    public interface CallBack {
 
         void onSuccessful(Call call, String data);
 
