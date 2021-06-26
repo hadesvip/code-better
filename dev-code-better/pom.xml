@@ -16,7 +16,7 @@
   <dependencies>
     <dependency>
       <groupId>com.kevin</groupId>
-      <artifactId>dev-common-samples</artifactId>
+      <artifactId>dev-common</artifactId>
     </dependency>
   </dependencies>
 
