@@ -19,12 +19,14 @@
     <okhttp.version>3.10.0</okhttp.version>
     <fastjson.version>1.2.60</fastjson.version>
     <junit.version>4.11</junit.version>
+    <springboot.version>2.2.5.RELEASE</springboot.version>
   </properties>
 
 
   <modules>
     <module>dev-code-better</module>
     <module>dev-common</module>
+    <module>dev-web</module>
   </modules>
 
   <dependencyManagement>
@@ -44,6 +46,13 @@
         <groupId>com.alibaba</groupId>
         <artifactId>fastjson</artifactId>
         <version>${fastjson.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-dependencies</artifactId>
+        <version>${springboot.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
       </dependency>
     </dependencies>
   </dependencyManagement>

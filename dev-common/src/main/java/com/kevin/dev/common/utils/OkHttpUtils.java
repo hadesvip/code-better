@@ -20,7 +20,7 @@ import java.util.concurrent.TimeUnit;
  *
  * @author wangyong
  */
-public final class OkHttpUtils {
+public class OkHttpUtils {
 
     private static volatile OkHttpClient okHttpClient = null;
     private static volatile Semaphore semaphore = null;
