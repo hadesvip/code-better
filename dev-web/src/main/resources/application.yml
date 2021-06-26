@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: dev-web
+
+server:
+  port: 8080
+  servlet:
+    context-path: /
