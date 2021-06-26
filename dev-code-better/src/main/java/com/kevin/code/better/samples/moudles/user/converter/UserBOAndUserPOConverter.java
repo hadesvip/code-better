@@ -2,7 +2,7 @@ package com.kevin.code.better.samples.moudles.user.converter;
 
 import com.kevin.code.better.samples.moudles.user.domain.bo.UserBO;
 import com.kevin.code.better.samples.moudles.user.domain.dto.UserDTO;
-import com.kevin.dev.common.samples.domain.Converter;
+import com.kevin.dev.common.domain.Converter;
 import java.util.function.Function;
 
 
