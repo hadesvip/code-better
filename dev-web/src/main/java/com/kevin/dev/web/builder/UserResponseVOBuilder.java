@@ -1,6 +1,6 @@
-package com.kevin.dev.web.dev.web.builder;
+package com.kevin.dev.web.builder;
 
-import com.kevin.dev.web.dev.web.domain.vo.response.UserResponseVO;
+import com.kevin.dev.web.domain.vo.response.UserResponseVO;
 
 /**
  * @author wangyong

@@ -1,4 +1,4 @@
-package com.kevin.dev.web.dev.web.domain.vo.response;
+package com.kevin.dev.web.domain.vo.response;
 
 /**
  * 用户响应

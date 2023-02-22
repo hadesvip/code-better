@@ -1,4 +1,4 @@
-package com.kevin.dev.web.dev.web;
+package com.kevin.dev.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

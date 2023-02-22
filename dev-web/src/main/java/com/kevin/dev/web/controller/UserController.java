@@ -1,8 +1,8 @@
-package com.kevin.dev.web.dev.web.controller;
+package com.kevin.dev.web.controller;
 
-import com.kevin.dev.web.dev.web.builder.UserResponseVOBuilder;
-import com.kevin.dev.web.dev.web.domain.vo.request.UserRequestVO;
-import com.kevin.dev.web.dev.web.domain.vo.response.UserResponseVO;
+import com.kevin.dev.web.builder.UserResponseVOBuilder;
+import com.kevin.dev.web.domain.vo.request.UserRequestVO;
+import com.kevin.dev.web.domain.vo.response.UserResponseVO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.ResponseEntity;

@@ -1,4 +1,4 @@
-package com.kevin.dev.web.dev.web.domain.vo.request;
+package com.kevin.dev.web.domain.vo.request;
 
 /**
  * @author wangyong

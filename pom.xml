@@ -28,6 +28,7 @@
         <module>dev-code-better</module>
         <module>dev-common</module>
         <module>dev-web</module>
+        <module>juc-code-samples</module>
     </modules>
 
     <dependencyManagement>
@@ -54,6 +55,12 @@
                 <version>${springboot.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.google.guava</groupId>
+                <artifactId>guava</artifactId>
+                <version>31.0.1-jre</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

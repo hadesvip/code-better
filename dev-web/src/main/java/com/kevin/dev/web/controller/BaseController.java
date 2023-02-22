@@ -1,4 +1,4 @@
-package com.kevin.dev.web.dev.web.controller;
+package com.kevin.dev.web.controller;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;

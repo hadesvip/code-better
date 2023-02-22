@@ -1,4 +1,4 @@
-package com.kevin.dev.web.dev.web;
+package com.kevin.dev.web;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

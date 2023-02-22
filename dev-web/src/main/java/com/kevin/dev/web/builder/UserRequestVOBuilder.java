@@ -1,6 +1,6 @@
-package com.kevin.dev.web.dev.web.builder;
+package com.kevin.dev.web.builder;
 
-import com.kevin.dev.web.dev.web.domain.vo.request.UserRequestVO;
+import com.kevin.dev.web.domain.vo.request.UserRequestVO;
 
 /**
  * @author wangyong
