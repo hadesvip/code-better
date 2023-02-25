@@ -5,16 +5,15 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.kevin</groupId>
-    <artifactId>code-better-parent</artifactId>
+    <artifactId>code-better-samples</artifactId>
     <version>1.0</version>
   </parent>
 
-  <artifactId>code-better-samples</artifactId>
-  <packaging>pom</packaging>
-  <modules>
-    <module>on-java-samples</module>
-    <module>bean-validator-samples</module>
-  </modules>
+  <artifactId>bean-validator-samples</artifactId>
 
+
+  <dependencies>
+
+  </dependencies>
 
 </project>

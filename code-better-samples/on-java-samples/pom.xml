@@ -9,7 +9,7 @@
     <version>1.0</version>
   </parent>
 
-  <artifactId>on-java</artifactId>
+  <artifactId>on-java-samples</artifactId>
 
 
 </project>
