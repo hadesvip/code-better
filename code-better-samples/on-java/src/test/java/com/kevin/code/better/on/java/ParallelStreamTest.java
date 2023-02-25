@@ -1,4 +1,4 @@
-package com.kevin.code.better.samples;
+package com.kevin.code.better.on.java;
 
 import com.google.common.collect.Lists;
 import java.util.List;
@@ -16,7 +16,7 @@ import org.junit.jupiter.api.Test;
 public class ParallelStreamTest {
 
 
-  @org.junit.jupiter.api.Test
+  @Test
   public void parallelStreamTest() {
     //串行执行
     IntStream.range(1, 8).forEach(System.out::println);
