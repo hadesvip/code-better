@@ -1,7 +1,7 @@
 package com.kevin.bean.validator.moulder.user.service.impl;
 
-import com.kevin.bean.validator.moulder.user.entity.dto.request.UserRegisterReqDto;
-import com.kevin.bean.validator.moulder.user.entity.dto.response.UserRegisterResDto;
+import com.kevin.bean.validator.moulder.user.entity.dto.request.UserRegisterV1ReqDto;
+import com.kevin.bean.validator.moulder.user.entity.dto.response.UserRegisterV1ResDto;
 import com.kevin.bean.validator.moulder.user.service.UserService;
 import com.kevin.code.better.common.exception.BizException;
 import org.apache.commons.lang3.StringUtils;
@@ -17,7 +17,7 @@ public class UserServiceImpl implements UserService {
 
 
   @Override
-  public UserRegisterResDto register(UserRegisterReqDto reqDto) {
+  public UserRegisterV1ResDto register(UserRegisterV1ReqDto reqDto) {
 
     //参数校验
     if (reqDto == null) {
@@ -38,7 +38,7 @@ public class UserServiceImpl implements UserService {
     //......
 
     //省略业务逻辑...
-    UserRegisterResDto resDto = new UserRegisterResDto();
+    UserRegisterV1ResDto resDto = new UserRegisterV1ResDto();
     resDto.setSuccess(true);
     return resDto;
   }

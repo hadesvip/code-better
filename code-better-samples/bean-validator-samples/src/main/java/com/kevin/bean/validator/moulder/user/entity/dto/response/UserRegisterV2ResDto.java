@@ -8,7 +8,7 @@ import lombok.Data;
  * @author kevin
  */
 @Data
-public class UserRegisterResDto {
+public class UserRegisterV2ResDto {
 
   /**
    * 是否注册成功

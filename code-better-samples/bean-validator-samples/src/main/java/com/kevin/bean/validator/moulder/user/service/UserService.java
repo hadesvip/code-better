@@ -1,7 +1,7 @@
 package com.kevin.bean.validator.moulder.user.service;
 
-import com.kevin.bean.validator.moulder.user.entity.dto.request.UserRegisterReqDto;
-import com.kevin.bean.validator.moulder.user.entity.dto.response.UserRegisterResDto;
+import com.kevin.bean.validator.moulder.user.entity.dto.request.UserRegisterV1ReqDto;
+import com.kevin.bean.validator.moulder.user.entity.dto.response.UserRegisterV1ResDto;
 
 /**
  * 用户接口
@@ -16,6 +16,6 @@ public interface UserService {
    * @param userRegisterReqDto
    * @return
    */
-  UserRegisterResDto register(UserRegisterReqDto userRegisterReqDto);
+  UserRegisterV1ResDto register(UserRegisterV1ReqDto userRegisterReqDto);
 
 }

@@ -9,7 +9,7 @@ import lombok.Data;
  */
 
 @Data
-public class UserRegisterReqDto {
+public class UserRegisterV1ReqDto {
 
   /**
    * 用户名

@@ -1,11 +1,10 @@
 package com.kevin.bean.validator.moulder.user.controller;
 
-import com.kevin.bean.validator.moulder.user.entity.dto.request.UserRegisterReqDto;
-import com.kevin.bean.validator.moulder.user.entity.dto.response.UserRegisterResDto;
+import com.kevin.bean.validator.moulder.user.entity.dto.request.UserRegisterV1ReqDto;
+import com.kevin.bean.validator.moulder.user.entity.dto.response.UserRegisterV1ResDto;
 import com.kevin.bean.validator.moulder.user.service.UserService;
 import com.kevin.code.better.common.exception.BizException;
 import javax.annotation.Resource;
-import org.apache.commons.lang3.StringUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -32,16 +31,28 @@ public class UserController {
    * @param reqDto
    * @return
    */
-  @PostMapping("/register")
+  @PostMapping("/v1/register")
   @ResponseStatus(HttpStatus.OK)
-  public ResponseEntity<?> register(@RequestBody UserRegisterReqDto reqDto) {
-    UserRegisterResDto resDto = userService.register(reqDto);
+  public ResponseEntity<?> registerV1(@RequestBody UserRegisterV1ReqDto reqDto) {
+    UserRegisterV1ResDto resDto = userService.register(reqDto);
     if (!resDto.isSuccess()) {
       //监听注册失败逻辑，省略....
       throw new BizException("注册失败，请联系客服人员。");
     }
     return ResponseEntity.ok(resDto);
   }
+
+  @PostMapping("/v2/register")
+  @ResponseStatus(HttpStatus.OK)
+  public ResponseEntity<?> registerV2(@RequestBody UserRegisterV1ReqDto reqDto) {
+    UserRegisterV1ResDto resDto = userService.register(reqDto);
+    if (!resDto.isSuccess()) {
+      //监听注册失败逻辑，省略....
+      throw new BizException("注册失败，请联系客服人员。");
+    }
+    return ResponseEntity.ok(resDto);
+  }
+
 
 
 
