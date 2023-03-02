@@ -1,7 +1,8 @@
 package com.kevin.bean.validator.moulder.user.hibernate.validator.dto;
 
 import lombok.Data;
-import org.hibernate.validator.constraints.NotBlank;
+
+import javax.validation.constraints.NotBlank;
 
 /**
  * TODO 用一句话描述这个类的作用
