@@ -6,6 +6,7 @@
         <artifactId>code-better-parent</artifactId>
         <groupId>com.kevin</groupId>
         <version>1.0</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
     <groupId>com.kevin.dev.web</groupId>
     <artifactId>code-better-web</artifactId>

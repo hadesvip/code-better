@@ -7,6 +7,7 @@
     <groupId>com.kevin</groupId>
     <artifactId>code-better-parent</artifactId>
     <version>1.0</version>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>code-better-samples</artifactId>
